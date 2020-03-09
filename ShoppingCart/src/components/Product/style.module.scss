@@ -1,0 +1,19 @@
+.cardContainer {
+    max-height: 360px;   
+    text-align: center;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    object-fit: contain;
+    height: 165px;
+    max-width: 60%;
+    max-height: 60%;
+}

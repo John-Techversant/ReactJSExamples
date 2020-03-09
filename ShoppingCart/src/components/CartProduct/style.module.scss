@@ -1,0 +1,46 @@
+.productImg {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.productRow {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+}
+
+
+.productRow div {
+    display: flex;
+    align-items: center;
+}
+
+.productRow div:nth-child(1) {
+    justify-content: center;
+}
+
+.productRow div:nth-child(2) {
+    align-items: flex-start;
+}
+
+.productTitle {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productRow div.productTitle span:nth-child(1) {
+    color: #1f2671;
+}
+
+.productRow div.productTitle span:nth-child(2) {
+    color: #bbb;
+}
+
+.deleteCartItem i {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.inputNumber {
+    max-width: 50px !important;
+}

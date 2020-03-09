@@ -1,0 +1,92 @@
+//Header Styles
+
+.headerContainer {
+    background: linear-gradient(to right, #c03764, #1f2671);
+}
+
+.logo {
+    font-weight: 600;
+    font-size: calc( 10px + 2vmin );
+    color: white;
+}
+
+.rightIcons  {
+    color: white;
+    font-size: 18px;
+    > span{
+        &:hover {
+            text-shadow: 1px 1px 1px black;
+            cursor: pointer;
+        }
+    } 
+}
+
+.productsStrip {
+    background: linear-gradient(to right, #c03764, #1f2671);
+}
+
+span.step {
+    background: #ce2f7f;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    width: 1.5em; 
+  }
+
+  .pulseButton {
+    border: none;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  
+  }
+  .pulseButton:hover 
+  {
+    -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+  }
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+//Header Strip
+
+.topHeader {
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.topHeader span {
+    font-size: 12px;
+    color: rgb(102, 99, 99);
+    margin-right: 30px
+}
+
+.topHeader img {
+    margin-right: 5px
+}
+
+.containerDiv {
+    border-bottom: 1px solid #dedede;
+    background-color: rgba(235, 222, 233, 0.19);
+}
+
+.containerDiv > div:first-child {
+    border: none;
+}
+
+.headerTopContainer {
+    height: '25px'
+}
